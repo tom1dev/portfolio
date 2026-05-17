@@ -1,9 +1,13 @@
 import "tailwindcss";
+import { LetterCollision } from "./intro/LetterCollision";
+import ScrollSign from "./intro/ScrollSign";
 function Intro(){
     return(
-    <>
-        Intro
-    </>
+    
+    <div className="h-full overflow-hidden">
+        <LetterCollision />
+        <ScrollSign />
+    </div>
     );
 }
 
