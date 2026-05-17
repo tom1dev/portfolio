@@ -3,7 +3,7 @@ import AboutMe from "./components/AboutMe";
 import MyExperience from "./components/MyExperience";
 import ContactMe from "./components/ContactMe";
 import SideMenu from "./components/SideMenu";
-import Header from "./components/intro/Header";
+import Header from "./components/Header";
 
 const sectionData = [
   {
@@ -23,42 +23,47 @@ const sectionData = [
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen w-full">
+    <div className="flex flex-col h-screen w-full">
 
       {/* Site Header */}
-      <div className="w-full border sticky top-0 flex h-1/3">
+      <div className="w-full sticky border top-0 flex">
         <Header/>
       </div>
 
+      <div className="w-full border top-0 flex-1">
 
-      {/* Intro Section */}
-      <div className="min-h-screen w-full">
-        <Intro />
-      </div>
-
-      {/* Main Content*/}
-      <div className="flex flex-1 flex-row w-full px-15 py-10 gap-8">
-        {/* Sticky Navigation */}
-        <div className="sticky top-8 self-start w-1/5 border p-6">
-          <SideMenu />
+        {/* Intro Section */}
+        <div className="min-h-screen w-full">
+          <Intro />
         </div>
 
-        {/* Sections of Website */}
-        <div className="flex flex-1 flex-col gap-6">
+        {/* Main Content*/}
+        <div className="flex flex-1 flex-row w-full px-15 py-10 gap-8">
+          {/* Sticky Navigation */}
+          <div className="sticky top-25 self-start w-1/5 border p-6">
+            <SideMenu />
+          </div>
 
-          {sectionData.map((sect)=>{
-            const Component = sect.component;
-            return (
-              <section
-                id={sect.id}
-                className="min-h-screen border p-6"
-              >
-                <Component />
-              </section>
-            );}
-        )}
+          {/* Sections of Website */}
+          <div className="flex flex-1 flex-col gap-6">
+
+            {sectionData.map((sect)=>{
+              const Component = sect.component;
+              return (
+                <section
+                  id={sect.id}
+                  className="min-h-screen border p-6  scroll-mt-25"
+                >
+                  <Component />
+                </section>
+              );}
+          )}
+          </div>
         </div>
+
+
       </div>
+      
     </div>
   );
 }

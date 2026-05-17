@@ -42,13 +42,10 @@ export function LetterCollision() {
     }
 
     animateLettersOnScroll(ref);
-    ScrollTrigger.addEventListener("refreshInit", () =>
-      ScrollTrigger.refresh(),
-    );
   }, []);
 
   return (
-    <div ref={ref} className="ml-8 scroll-smooth">
+    <div ref={ref} className="border overflow-hidden scroll-smooth">
       {/* layout for two lines + sub-sentence */}
       <div className="-mt-40 mb-36 flex h-screen items-center flex-col justify-end lg:mb-24">
         {lines.map((line, i) => {
@@ -63,17 +60,18 @@ export function LetterCollision() {
 
           return (
             <div key={i} className="flex justify-center flex-wrap">
-              {wordMap.map((word) => {
+              {wordMap.map((word,j) => {
                 return (
-                  <>
-                  <LetterDisplay
-                    word={word.word}
-                    startChar={word.startIndex}
-                    line={i + 1}
-                  />
-                  <div className="w-4 sm:w-10" />
+                  <React.Fragment key={`${i}-${j}-${word.word}`}>
+                    <LetterDisplay
+                      key={i}
+                      word={word.word}
+                      startChar={word.startIndex}
+                      line={i + 1}
+                    />
+                    <div className="w-4 sm:w-10" />
                   
-                  </>
+                  </React.Fragment>
                 );
               })}
             </div>
