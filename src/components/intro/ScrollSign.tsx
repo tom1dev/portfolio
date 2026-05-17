@@ -18,16 +18,25 @@ function ScrollSign() {
   return (
     <>
       {show && (
-        <div className="fixed bottom-8 right-8 border p-6 bg-white">
+        <div className="fixed bottom-8 right-8 p-6 bg-white text-black">
           <a
             href="/"
             onClick={(e) => {
                 e.preventDefault();
                 document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
             }}
+            className="flex flex-row hover:text-gray-600 transition-colors duration-400"
             >
-            Scroll
-            </a>
+            Scroll 
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="w-5 h-5 self-end"
+            >
+              <path d="M12 16l-6-6h12z" />
+            </svg>
+          </a>
         </div>
       )}
     </>

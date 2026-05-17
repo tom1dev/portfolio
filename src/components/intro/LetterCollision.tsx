@@ -18,6 +18,7 @@ function animateLettersOnScroll(ref: React.RefObject<HTMLDivElement | null>) {
     const xComponent = parseFloat(letter.dataset.x || "1");
     const yComponent = parseFloat(letter.dataset.y || "1");
     gsap.to(letter, {
+      zIndex: 0,
       y: -speed * ScrollTrigger.maxScroll(window) * yComponent,
       x: speed * ScrollTrigger.maxScroll(window) * xComponent,
       rotation: getRandomRotation(),
@@ -45,7 +46,7 @@ export function LetterCollision() {
   }, []);
 
   return (
-    <div ref={ref} className="border overflow-hidden scroll-smooth">
+    <div ref={ref} className="overflow-hidden z-10 scroll-smooth">
       {/* layout for two lines + sub-sentence */}
       <div className="-mt-40 mb-36 flex h-screen items-center flex-col justify-end lg:mb-24">
         {lines.map((line, i) => {

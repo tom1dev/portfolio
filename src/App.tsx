@@ -30,7 +30,7 @@ function App() {
         <Header/>
       </div>
 
-      <div className="w-full border top-0 flex-1">
+      <div className="w-full mt-25 top-0 flex-1">
 
         {/* Intro Section */}
         <div className="min-h-screen w-full">

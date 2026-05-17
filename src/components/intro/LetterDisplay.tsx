@@ -30,7 +30,7 @@ export function LetterDisplay({ word, line, startChar }: { word: string, line: n
       {word.split('').map((char, i) => (
         <div
           key={i}
-          className="letter text-4xl font-semibold xs:text-[90px] md:text-[100px]"
+          className="letter text-4xl font-semibold z-10 xs:text-[90px] md:text-[100px]"
           data-speed={getSpeed(line, startChar+i+1)}
           data-x={getX(line,startChar+i+1)}
           data-y={getY(line,startChar+i+1)}
