@@ -3,6 +3,7 @@ import AboutMe from "./components/AboutMe";
 import MyExperience from "./components/MyExperience";
 import ContactMe from "./components/ContactMe";
 import SideMenu from "./components/SideMenu";
+import Header from "./components/intro/Header";
 
 const sectionData = [
   {
@@ -23,8 +24,15 @@ const sectionData = [
 function App() {
   return (
     <div className="flex flex-col min-h-screen w-full">
+
+      {/* Site Header */}
+      <div className="w-full border sticky top-0 flex h-1/3">
+        <Header/>
+      </div>
+
+
       {/* Intro Section */}
-      <div className="min-h-screen border w-full">
+      <div className="min-h-screen w-full">
         <Intro />
       </div>
 

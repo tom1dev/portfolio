@@ -4,7 +4,7 @@ function getSpeed(line: number, index: number) {
 
   const dist = Math.sqrt(x * x + y * y);
 
-  return 1 / (1 + dist); // smoother falloff
+  return 1 / (1 + dist);
 }
 function getX(line: number, index: number) {
   const x = index - 12;

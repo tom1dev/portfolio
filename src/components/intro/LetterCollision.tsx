@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 import React, { useEffect, useRef } from "react";
 import { LetterDisplay } from "./LetterDisplay";
 
-const lines = ["Hi my name is Tom Devonshire", "I make Web and App Solutions"];
+const lines = ["Hi my name is Tom Devonshire", "I make web and app solutions"];
 function getRandomRotation() {
   // ±30°
   return Math.random() * 60 - 30;
@@ -17,10 +17,7 @@ function animateLettersOnScroll(ref: React.RefObject<HTMLDivElement | null>) {
     const speed = parseFloat(letter.dataset.speed || "1");
     const xComponent = parseFloat(letter.dataset.x || "1");
     const yComponent = parseFloat(letter.dataset.y || "1");
-
-    console.log(-speed * ScrollTrigger.maxScroll(window) * yComponent)
     gsap.to(letter, {
-      // y-offset = fraction of total scroll
       y: -speed * ScrollTrigger.maxScroll(window) * yComponent,
       x: speed * ScrollTrigger.maxScroll(window) * xComponent,
       rotation: getRandomRotation(),
@@ -51,14 +48,14 @@ export function LetterCollision() {
   }, []);
 
   return (
-    <div ref={ref} className="ml-8 border scroll-smooth">
+    <div ref={ref} className="ml-8 scroll-smooth">
       {/* layout for two lines + sub-sentence */}
-      <div className="-mt-40 mb-36 flex h-screen items-center border flex-col justify-end lg:mb-24">
+      <div className="-mt-40 mb-36 flex h-screen items-center flex-col justify-end lg:mb-24">
         {lines.map((line, i) => {
           const words = line.split(" ");
           let count = 1;
 
-          const wordMap = words.map((word, i) => {
+          const wordMap = words.map((word) => {
             const tuple = { word: word, startIndex: count };
             count = count + word.length;
             return tuple;
