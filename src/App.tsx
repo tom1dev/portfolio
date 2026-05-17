@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen w-full">
       {/* Intro Section */}
-      <div className="min-h-screen border w-full p-8">
+      <div className="min-h-screen border w-full">
         <Intro />
       </div>
 

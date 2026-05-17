@@ -2,7 +2,7 @@ import "tailwindcss";
 function MyExperience(){
     return(
     <>
-        Experiance
+        Experience
     </>
     );
 }

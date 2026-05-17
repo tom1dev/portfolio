@@ -44,12 +44,19 @@ function animateLettersOnScroll(ref: React.RefObject<HTMLDivElement | null>) {
   });
 }
 export function LetterCollision() {
+
   const ref = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
-    if (!ref.current) return;
+    if (!ref.current) {
+      return;
+    }
+    
     animateLettersOnScroll(ref);
     ScrollTrigger.addEventListener('refreshInit', () => ScrollTrigger.refresh());
   }, []);
+
+
   return (
     <div ref={ref} className="ml-8 scroll-smooth">
       {/* layout for two lines + sub-sentence */}
