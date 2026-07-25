@@ -11,14 +11,6 @@ function Header(){
         </div>
         <div className="flex flex-row items-center gap-8">
             <a
-                href="#experience"
-                className="text-black hover:text-gray-600 transition-colors duration-400 text-xl font-semibold"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Projects
-            </a>
-            <a
                 href="https://github.com/tom1dev/portfolio"
                 className="text-black hover:text-gray-600 transition-colors duration-400 text-xl font-semibold"
                 target="_blank"
