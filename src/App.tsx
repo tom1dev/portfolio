@@ -32,7 +32,7 @@ function App() {
     <div className="flex flex-col h-screen w-full">
 
       {/* Site Header */}
-      <div className="w-full sticky top-0 flex">
+      <div className="w-full sticky top-0 z-50 flex">
         <Header/>
       </div>
 
@@ -65,8 +65,6 @@ function App() {
           )}
           </div>
         </div>
-
-
       </div>
 
       {/* Site Footer */}

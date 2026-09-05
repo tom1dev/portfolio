@@ -1,11 +1,9 @@
-"use client"; // needed in Next.js App Router
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger);
-
 import React, { useEffect, useRef } from "react";
 import { LetterDisplay } from "./LetterDisplay";
 
+gsap.registerPlugin(ScrollTrigger);
 const lines = ["Hi my name is Tom Devonshire", "I make web and app solutions"];
 function getRandomRotation() {
   // ±30°
@@ -23,12 +21,14 @@ function animateLettersOnScroll(ref: React.RefObject<HTMLDivElement | null>) {
       x: speed * ScrollTrigger.maxScroll(window) * xComponent,
       rotation: getRandomRotation(),
       ease: "power2.out",
-      duration: 0.8, // base duration (scrub will sync timing)
+      // base duration (scrub will sync timing)
+      duration: 0.8, 
       scrollTrigger: {
         trigger: document.documentElement,
         start: 0,
         end: window.innerHeight,
-        scrub: 0.5, // "momentum" feel
+        // "momentum" feel
+        scrub: 0.5,
         invalidateOnRefresh: true,
       },
     });
