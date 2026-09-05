@@ -46,7 +46,7 @@ function App() {
           </div>
 
           {/* Sections of Website */}
-          <div className="flex flex-1 flex-col gap-30">
+          <div className="flex flex-1 flex-col gap-8">
             {sectionData.map((sect)=>{
               const Component = sect.component;
               return (
