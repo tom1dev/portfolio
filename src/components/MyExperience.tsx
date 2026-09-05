@@ -1,6 +1,6 @@
 import "tailwindcss";
 import SectionHeader from "./public/SectionHeader";
-import JobCard from "./Experience/JobCard";
+import EntryCard from "./Experience/EntryCard";
 import { LuBriefcaseBusiness } from "react-icons/lu";
 function MyExperience(){
     return(
@@ -26,9 +26,10 @@ function MyExperience(){
                     </span>
 
                     <div className="min-w-0 flex-1">
-                        <JobCard
+                        <EntryCard
                             headerText={job.headerText}
                             subHeader={job.subHeader}
+                            tech={job.tech}
                             bulletPoints={job.bulletPoints}
                             href={job.href}
                         />
@@ -44,6 +45,7 @@ const jobs = [
         headerText: "Junior Developer - Hoist NZ",
         subHeader: "05/2026 - Present",
         href: "https://hoist.nz/",
+        tech: ["C#", "ASP.NET", "React", "React Native"],
         bulletPoints: [
             "Build full-stack solutions using C# and ASP.NET on the backend with React and React Native on the frontend.",
             "Work across the full development lifecycle, covering design, architecture, build, testing, and ongoing support.",
@@ -54,6 +56,7 @@ const jobs = [
         headerText: "Software Engineering Intern - Svasthya NZ",
         subHeader: "01/2025 - 10/2025",
         href: "https://svasthya.nz/",
+        tech: ["React Native", "Node/Express", "MySQL", "Stripe", "JWT"],
         bulletPoints: [
             "Built and deployed a cross-platform Point of Sale app using React Native, Node/Express, and MySQL, integrating Stripe's Terminal SDK to replace a third-party solution and cut transaction fees by 28%.",
             "Owned the project end-to-end: feasibility review, design, deployment to A2 Hosting, and an internal Play Store release tested on live transactions.",
@@ -66,6 +69,7 @@ const jobs = [
         headerText: "Undergraduate Software Trainee - New Zealand Maths and Physics Competition(NZPMC)",
         subHeader: "01/2024 - 01/2025",
         href: "https://www.nzpmc.com/",
+        tech: ["React", "Spring Boot", "MongoDB", "Node/Express", "JWT", "Render"],
         bulletPoints: [
             "Built a full-stack competition platform with a ReactJS frontend and MongoDB database, supporting question management, automated grading, and result analytics with score distribution graphs.",
             "Migrated the backend from Node/Express to SpringBoot to match the production stack, modelling the MongoDB schema in UML before implementing CRUD endpoints.",
@@ -78,6 +82,7 @@ const jobs = [
         headerText: "Production and Manufacturing Engineering Intern - Steel & Tube",
         subHeader: "11/2023 - 03/2024",
         href: "https://steelandtube.co.nz/",
+        tech: ["JavaScript", "HTML/CSS", "XML", "SCORM", "Excel"],
         bulletPoints: [
             "Built a SCORM-compliant e-learning module from scratch using HTML, CSS, JavaScript, and XML, reporting quiz scores and pass/fail results back to the company's Intelex training platform.",
             "Built an Excel mesh calculator using XLOOKUP across all 23 mesh variants, streamlining work order creation and reducing errors.",
@@ -85,13 +90,5 @@ const jobs = [
         ],
     },
 ]
-
-const education = {
-    headerText: "Bachelor of Engineering (Honours), Software Engineering",
-    subHeader: "The University of Auckland | 02/2022 - 03/2026",
-    bulletPoints: [
-        "Graduated with First Class Honours and a cumulative GPA of 7.6.",
-    ],
-}
 
 export default MyExperience;
