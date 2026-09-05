@@ -4,6 +4,7 @@ import MyExperience from "./components/MyExperience";
 import ContactMe from "./components/ContactMe";
 import SideMenu from "./components/SideMenu";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const sectionData = [
   {
@@ -26,7 +27,7 @@ function App() {
     <div className="flex flex-col h-screen w-full">
 
       {/* Site Header */}
-      <div className="w-full sticky border top-0 flex">
+      <div className="w-full sticky top-0 flex">
         <Header/>
       </div>
 
@@ -40,21 +41,20 @@ function App() {
         {/* Main Content*/}
         <div className="flex flex-1 flex-row w-full px-15 py-10 gap-8">
           {/* Sticky Navigation */}
-          <div className="sticky top-25 self-start w-1/5 border p-6">
+          <div className="sticky top-25 self-start w-1/5 p-6">
             <SideMenu />
           </div>
 
           {/* Sections of Website */}
-          <div className="flex flex-1 flex-col gap-6">
-
+          <div className="flex flex-1 flex-col gap-30">
             {sectionData.map((sect)=>{
               const Component = sect.component;
               return (
                 <section
                   id={sect.id}
-                  className="min-h-screen border p-6  scroll-mt-25"
+                  className="px-6"
                 >
-                  <Component />
+                  <Component/>
                 </section>
               );}
           )}
@@ -63,7 +63,10 @@ function App() {
 
 
       </div>
-      
+
+      {/* Site Footer */}
+      <Footer/>
+
     </div>
   );
 }
