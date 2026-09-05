@@ -1,6 +1,7 @@
 import Intro from "./components/Intro";
 import AboutMe from "./components/AboutMe";
 import MyExperience from "./components/MyExperience";
+import MyProjects from "./components/MyProjects";
 import ContactMe from "./components/ContactMe";
 import SideMenu from "./components/SideMenu";
 import Header from "./components/Header";
@@ -14,6 +15,10 @@ const sectionData = [
   {
     id: "experience",
     component: MyExperience,
+  },
+  {
+    id: "projects",
+    component: MyProjects,
   },
   {
     id: "contact",

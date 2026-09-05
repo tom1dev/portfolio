@@ -25,6 +25,16 @@ function MyExperience(){
 }
 const jobs = [
     {
+        headerText: "Junior Developer",
+        subHeader: "Hoist NZ | 05/2026 \u2013 Present",
+        href: "https://hoist.nz/",
+        bulletPoints: [
+            "Build full-stack solutions using C# and ASP.NET on the backend with React and React Native on the frontend.",
+            "Work across the full development lifecycle, covering design, architecture, build, testing, and ongoing support.",
+            "Wear multiple hats in a small team, designing and delivering solutions end to end and building breadth across the stack.",
+        ],
+    },
+    {
         headerText: "Software Engineering Intern",
         subHeader: "Svasthya NZ | 01/2025 \u2013 10/2025",
         href: "https://svasthya.nz/",
@@ -54,10 +64,8 @@ const jobs = [
         href: "https://steelandtube.co.nz/",
         bulletPoints: [
             "Built a SCORM-compliant e-learning module from scratch using HTML, CSS, JavaScript, and XML, reporting quiz scores and pass/fail results back to the company's Intelex training platform.",
-            "Optimised the rebar straightening and cutting machine across 8 wire diameters through systematic parameter testing, reducing the manufacturing error rate to 0.5%.",
-            "Ran daily quality assurance against AS/NZS 4671:2019 and maintained end-to-end product traceability through Microsoft Dynamics AX 2012.",
             "Built an Excel mesh calculator using XLOOKUP across all 23 mesh variants, streamlining work order creation and reducing errors.",
-            "Authored safety documents including a job safety analysis report for the rod threading machine and an updated lockout-tagout procedure.",
+            "Optimised the rebar straightening and cutting machine through systematic parameter testing, reducing the manufacturing error rate to 0.5%.",
         ],
     },
 ]
