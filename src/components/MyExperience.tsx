@@ -36,16 +36,6 @@ function MyExperience(){
                 </div>
             ))}
         </div>
-
-        {/* Education */}
-        <h3 className="text-xl font-semibold px-4 pt-4">Education</h3>
-        <div className="p-4">
-            <JobCard
-                headerText={education.headerText}
-                subHeader={education.subHeader}
-                bulletPoints={education.bulletPoints}
-            />
-        </div>
     </div>
     );
 }
