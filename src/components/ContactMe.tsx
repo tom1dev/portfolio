@@ -41,7 +41,7 @@ function ContactMe(){
     return(
     <div>
         {/* Header */}
-        <SectionHeader headerText="Contact Me"/>
+        <SectionHeader headerText="Contact"/>
 
         {/* Body Text */}
         <BodyText
@@ -73,12 +73,12 @@ function ContactMe(){
                                 href={contact.href}
                                 target={contact.href.startsWith("mailto:") ? undefined : "_blank"}
                                 rel="noopener noreferrer"
-                                className="group flex items-center gap-3 rounded-lg border border-gray-200 p-4 hover:border-gray-400 hover:bg-gray-50 transition-colors duration-400"
+                                className="group flex items-center gap-3 rounded-lg border border-gray-500 p-4 hover:border-black hover:bg-gray-50 transition-colors duration-400"
                             >
                                 {row}
                             </a>
                         ) : (
-                            <div className="group flex items-center gap-3 rounded-lg border border-gray-200 p-4">
+                            <div className="group flex items-center gap-3 rounded-lg border border-gray-500 p-4">
                                 {row}
                             </div>
                         )}
@@ -91,8 +91,7 @@ function ContactMe(){
 }
 
 const text = [
-    "I'm currently open to graduate software engineering roles, so if you have an opportunity you think I'd be a good fit for, I'd love to hear about it.",
-    "That said, you don't need a role in hand to get in touch. Whether you want to talk about a project, ask about something I've worked on, or just have a chat about software, feel free to reach out through any of the links below and I'll get back to you.",
+    "Whether you want to talk about a project, ask about something I've worked on, or just have a chat about software, feel free to reach out through any of the links below and I'll get back to you.",
 ]
 
 export default ContactMe;

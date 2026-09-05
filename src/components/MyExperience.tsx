@@ -6,7 +6,7 @@ function MyExperience(){
     return(
     <div>
         {/* Header */}
-        <SectionHeader headerText="My Experience"/>
+        <SectionHeader headerText="Experience"/>
 
         {/* Jobs */}
         <div className="flex flex-col gap-6 p-4">
@@ -35,8 +35,8 @@ function MyExperience(){
 }
 const jobs = [
     {
-        headerText: "Junior Developer",
-        subHeader: "Hoist NZ | 05/2026 \u2013 Present",
+        headerText: "Junior Developer - Hoist NZ",
+        subHeader: "05/2026 - Present",
         href: "https://hoist.nz/",
         bulletPoints: [
             "Build full-stack solutions using C# and ASP.NET on the backend with React and React Native on the frontend.",
@@ -45,8 +45,8 @@ const jobs = [
         ],
     },
     {
-        headerText: "Software Engineering Intern",
-        subHeader: "Svasthya NZ | 01/2025 \u2013 10/2025",
+        headerText: "Software Engineering Intern - Svasthya NZ",
+        subHeader: "01/2025 - 10/2025",
         href: "https://svasthya.nz/",
         bulletPoints: [
             "Built and deployed a cross-platform Point of Sale app using React Native, Node/Express, and MySQL, integrating Stripe's Terminal SDK to replace a third-party solution and cut transaction fees by 28%.",
@@ -57,8 +57,8 @@ const jobs = [
         ],
     },
     {
-        headerText: "Undergraduate Software Trainee",
-        subHeader: "New Zealand Physics and Math Competition | 11/2024 \u2013 01/2025",
+        headerText: "Undergraduate Software Trainee - New Zealand Maths and Physics Competition(NZPMC)",
+        subHeader: "01/2024 - 01/2025",
         href: "https://www.nzpmc.com/",
         bulletPoints: [
             "Built a full-stack competition platform with a ReactJS frontend and MongoDB database, supporting question management, automated grading, and result analytics with score distribution graphs.",
@@ -69,8 +69,8 @@ const jobs = [
         ],
     },
     {
-        headerText: "Production and Manufacturing Engineering Intern",
-        subHeader: "Steel & Tube | 11/2023 \u2013 03/2024",
+        headerText: "Production and Manufacturing Engineering Intern - Steel & Tube",
+        subHeader: "11/2023 - 03/2024",
         href: "https://steelandtube.co.nz/",
         bulletPoints: [
             "Built a SCORM-compliant e-learning module from scratch using HTML, CSS, JavaScript, and XML, reporting quiz scores and pass/fail results back to the company's Intelex training platform.",
@@ -82,7 +82,7 @@ const jobs = [
 
 const education = {
     headerText: "Bachelor of Engineering (Honours), Software Engineering",
-    subHeader: "The University of Auckland | 02/2022 \u2013 03/2026",
+    subHeader: "The University of Auckland | 02/2022 - 03/2026",
     bulletPoints: [
         "Graduated with First Class Honours and a cumulative GPA of 7.6.",
     ],

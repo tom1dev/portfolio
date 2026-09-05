@@ -7,7 +7,7 @@ function MyProjects(){
     return(
     <div>
         {/* Header */}
-        <SectionHeader headerText="My Projects"/>
+        <SectionHeader headerText="Projects"/>
 
         {/* Body Text */}
         <BodyText
