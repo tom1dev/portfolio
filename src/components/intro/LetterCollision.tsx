@@ -48,7 +48,7 @@ export function LetterCollision() {
   return (
     <div ref={ref} className="overflow-hidden z-10 scroll-smooth">
       {/* layout for two lines + sub-sentence */}
-      <div className="-mt-40 mb-36 flex h-screen items-center flex-col justify-end lg:mb-24">
+      <div className="-mt-50 mb-36 flex h-screen items-center flex-col justify-end lg:mb-24">
         {lines.map((line, i) => {
           const words = line.split(" ");
           let count = 1;
