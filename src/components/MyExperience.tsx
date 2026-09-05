@@ -20,6 +20,16 @@ function MyExperience(){
                 />
             ))}
         </div>
+
+        {/* Education */}
+        <h3 className="text-xl font-semibold px-4 pt-4">Education</h3>
+        <div className="p-4">
+            <JobCard
+                headerText={education.headerText}
+                subHeader={education.subHeader}
+                bulletPoints={education.bulletPoints}
+            />
+        </div>
     </div>
     );
 }
@@ -69,5 +79,13 @@ const jobs = [
         ],
     },
 ]
+
+const education = {
+    headerText: "Bachelor of Engineering (Honours), Software Engineering",
+    subHeader: "The University of Auckland | 02/2022 \u2013 03/2026",
+    bulletPoints: [
+        "Graduated with First Class Honours and a cumulative GPA of 7.6.",
+    ],
+}
 
 export default MyExperience;
