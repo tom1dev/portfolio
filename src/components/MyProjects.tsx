@@ -49,7 +49,8 @@ const projects = [
         tech: ["FreeCAD", "R", "OpenAI", "Anthropic", "Google", "Mistral"],
         bulletPoints: [
             "Rebuilt the shape generation of a FreeCAD-based question generator with a connection-based procedural algorithm, adding tunable parameters for object structure, shape complexity, question type, and mutation.",
-            "Created and analysed the results of leading OpenAI, Anthropic, Google, and Mistral models in R using logistic regression, ANOVA, and pairwise marginal-means comparisons, benchmarking model accuracy against 988 students and isolating rotation tasks, shape complexity, and positional bias as the main failure modes.",
+            "Built an evaluation pipeline that ran generated question banks against leading OpenAI, Anthropic, Google, and Mistral models, collecting 15,840 responses with shuffled answer positions to measure consistency across attempts.",
+            "Analysed the results in R using logistic regression, ANOVA, and pairwise marginal-means comparisons, benchmarking model accuracy against 988 students and isolating rotation tasks, shape complexity, and positional bias as the main failure modes.",
         ],
     },
     {

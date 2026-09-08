@@ -54,7 +54,7 @@ const jobs = [
     },
     {
         headerText: "Software Engineering Intern - Svasthya NZ",
-        subHeader: "01/2025 - 10/2025",
+        subHeader: "02/2025 - 10/2025",
         href: "https://svasthya.nz/",
         tech: ["React Native", "Node/Express", "MySQL", "Stripe", "JWT"],
         bulletPoints: [
