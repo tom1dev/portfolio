@@ -58,9 +58,7 @@ const jobs = [
         href: "https://svasthya.nz/",
         tech: ["React Native", "Node/Express", "MySQL", "Stripe", "JWT"],
         bulletPoints: [
-            "Built and deployed a cross-platform Point of Sale app using React Native, Node/Express, and MySQL, integrating Stripe's Terminal SDK to replace a third-party solution and cut transaction fees by 28%.",
-            "Owned the project end-to-end: feasibility review, design, deployment to A2 Hosting, and an internal Play Store release tested on live transactions.",
-            "Secured the payment backend with expiring JWT authentication, brute-force protection, and HTTPS, and added a metrics page for transaction totals.",
+            "Built and deployed a cross-platform Point of Sale app using React Native, Node/Express, and MySQL, integrating Stripe's Terminal SDK to replace a third-party solution and cut transaction fees by 28%. Owned the project end-to-end: feasibility review, design, deployment to A2 Hosting, and an internal Play Store release tested on live transactions.",
             "Diagnosed WordPress performance issues using Google Lighthouse and Query Monitor, identifying conflicting caching plugins and eliminating 0.8s of load time.",
             "Migrated a deprecated barcode plugin to WooCommerce's native SKU system using custom SQL, working from a CPanel and Cloudflare staging site.",
         ],
@@ -73,9 +71,6 @@ const jobs = [
         bulletPoints: [
             "Built a full-stack competition platform with a ReactJS frontend and MongoDB database, supporting question management, automated grading, and result analytics with score distribution graphs.",
             "Migrated the backend from Node/Express to SpringBoot to match the production stack, modelling the MongoDB schema in UML before implementing CRUD endpoints.",
-            "Structured the backend into router, controller, service, and model layers to keep the codebase readable and extensible.",
-            "Implemented hashed passwords and JWT cookie sessions with role-gated endpoints, then deployed the application to Render.",
-            "Completed Full Stack Open to gain MERN proficiency, then presented the finished platform to the engineering team.",
         ],
     },
     {
@@ -85,8 +80,7 @@ const jobs = [
         tech: ["JavaScript", "HTML/CSS", "XML", "SCORM", "Excel"],
         bulletPoints: [
             "Built a SCORM-compliant e-learning module from scratch using HTML, CSS, JavaScript, and XML, reporting quiz scores and pass/fail results back to the company's Intelex training platform.",
-            "Built an Excel mesh calculator using XLOOKUP across all 23 mesh variants, streamlining work order creation and reducing errors.",
-            "Optimised the rebar straightening and cutting machine through systematic parameter testing, reducing the manufacturing error rate to 0.5%.",
+            "Optimised the rebar straightening and cutting machine through systematic parameter testing, reducing the manufacturing error rate",
         ],
     },
 ]
