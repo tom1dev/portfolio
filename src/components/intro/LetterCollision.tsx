@@ -47,8 +47,12 @@ export function LetterCollision() {
 
   return (
     <div ref={ref} className="overflow-hidden z-10 scroll-smooth">
+      {/* Each character is animated separately, so without this the intro reads
+          one letter at a time to screen readers and text extractors. */}
+      <p className="sr-only">{lines.join(". ")}.</p>
+
       {/* layout for two lines + sub-sentence */}
-      <div className="-mt-50 mb-36 flex h-screen items-center flex-col justify-end lg:mb-24">
+      <div aria-hidden="true" className="-mt-50 mb-36 flex h-screen items-center flex-col justify-end lg:mb-24">
         {lines.map((line, i) => {
           const words = line.split(" ");
           let count = 1;
