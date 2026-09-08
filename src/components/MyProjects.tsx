@@ -1,6 +1,5 @@
 import "tailwindcss";
 import SectionHeader from "./public/SectionHeader";
-import BodyText from "./public/BodyText";
 import EntryCard from "./Experience/EntryCard";
 import { LuCode } from "react-icons/lu";
 
