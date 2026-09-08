@@ -4,33 +4,27 @@
 > First Class Honours, University of Auckland. Full-stack work across C#/ASP.NET,
 > React, React Native, Java/Spring Boot and Node/Express.
 
-## Current role
-- Junior Developer, Hoist NZ (05/2026 - present). C#, ASP.NET, React, React Native.
+This is the personal portfolio and CV of Tom Devonshire. Contact: tom@devonshire.co.nz
 
-## Previous experience
-- Software Engineering Intern, Svasthya NZ (01/2025 - 10/2025). Built and deployed a
-  cross-platform Point of Sale app in React Native with a Node/Express and MySQL backend,
-  integrating Stripe's Terminal SDK to replace a third-party solution and cut transaction
-  fees by 28%.
-- Undergraduate Software Trainee, New Zealand Physics and Math Competition (01/2024 - 01/2025).
-  Full-stack competition platform; migrated the backend from Node/Express to Spring Boot.
-- Production and Manufacturing Engineering Intern, Steel & Tube (11/2023 - 03/2024).
-  SCORM-compliant e-learning module reporting to the Intelex training platform.
+## Experience
+
+- [Hoist NZ](https://hoist.nz/): Junior Developer, 05/2026 - present. Builds full-stack solutions in C# and ASP.NET with React and React Native, working across design, architecture, build, testing and support.
+- [Svasthya NZ](https://svasthya.nz/): Software Engineering Intern, 01/2025 - 10/2025. Built and deployed a cross-platform Point of Sale app in React Native with a Node/Express and MySQL backend, integrating Stripe's Terminal SDK to replace a third-party solution and cut transaction fees by 28%.
+- [New Zealand Physics and Math Competition](https://www.nzpmc.com/): Undergraduate Software Trainee, 01/2024 - 01/2025. Built a full-stack competition platform with a React frontend and MongoDB, then migrated the backend from Node/Express to Spring Boot to match the production stack.
+- [Steel & Tube](https://steelandtube.co.nz/): Production and Manufacturing Engineering Intern, 11/2023 - 03/2024. Built a SCORM-compliant e-learning module reporting quiz results to the Intelex training platform.
 
 ## Projects
-- Figaro, a spatial visualisation testing framework (2025). Procedural question generation
-  in FreeCAD; evaluated 15,840 responses across OpenAI, Anthropic, Google and Mistral models
-  with shuffled answer positions; analysed in R and benchmarked against 988 students.
-- Path.io (2023). Gamified fitness Android app; third place and Most Promising Concept
-  at the DEVS x GDSC hackathon.
+
+- [Figaro - Spatial Visualisation Testing Framework](https://devonshire.co.nz/#projects): University of Auckland research project, 2025. Procedural question generation in FreeCAD; evaluated 15,840 responses across OpenAI, Anthropic, Google and Mistral models with shuffled answer positions; analysed in R with logistic regression and ANOVA, benchmarked against 988 students.
+- [Path.io](https://devonshire.co.nz/#projects): DEVS x GDSC hackathon, 2023. Gamified fitness Android app in Java where players walk to enclose territory. Third place overall and Most Promising Concept.
 
 ## Education
-- BE(Hons) Software Engineering, University of Auckland (2022 - 2026). First Class Honours, GPA 7.6.
-- Sancta Maria College, Auckland. NCEA Levels 1-3, each endorsed with Excellence;
-  top scholar in Calculus and Digital Technologies at Level 3.
+
+- [The University of Auckland](https://www.auckland.ac.nz/): Bachelor of Engineering (Honours), Software Engineering, 02/2022 - 03/2026. First Class Honours, cumulative GPA 7.6.
+- [Sancta Maria College, Auckland](https://www.sanctamaria.school.nz/): NCEA Levels 1, 2 and 3, each endorsed with Excellence. Top scholar in Calculus and Digital Technologies at Level 3.
 
 ## Links
-- Site: https://devonshire.co.nz/
-- GitHub: https://github.com/tom1dev
-- LinkedIn: https://www.linkedin.com/in/tom1dev/
-- Email: tom@devonshire.co.nz
+
+- [Portfolio](https://devonshire.co.nz/): This site.
+- [GitHub](https://github.com/tom1dev): Public repositories, including the source for this site.
+- [LinkedIn](https://www.linkedin.com/in/tom1dev/): Professional profile.
