@@ -10,11 +10,6 @@ function MyProjects(){
         {/* Header */}
         <SectionHeader headerText="Projects"/>
 
-        {/* Body Text */}
-        <BodyText
-            bodyText={text}
-        />
-
         {/* Projects */}
         <div className="flex flex-col gap-6 p-4">
             {projects.map((project, index) => (
@@ -46,10 +41,6 @@ function MyProjects(){
     </div>
     );
 }
-
-const text = [
-    "Alongside my professional work, these are the projects I've chosen to take on myself, and the ones I most enjoy talking through.",
-]
 
 const projects = [
     {
