@@ -6,7 +6,7 @@ function Header(){
     return(
     <header className="fixed top-0 left-0 w-full z-50 flex flex-row min-h-8 items-center justify-between bg-white/5 backdrop-blur-sm px-5 py-3">
         <div className="self-center text-center flex flex-row gap-4">
-            <img src="/Logo.jpg" alt="" className="h-14" />
+            <img src="/Logo.jpg" alt="" width="500" height="500" className="h-14 w-auto" />
             <h1 className="self-center text-center text-xl font-semibold">Tom Devonshire</h1> 
         </div>
         <div className="flex flex-row items-center gap-8">
