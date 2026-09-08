@@ -1,0 +1,5 @@
+# Everything here is public and intended to be indexed, including by AI crawlers.
+User-agent: *
+Allow: /
+
+Sitemap: https://devonshire.co.nz/sitemap.xml

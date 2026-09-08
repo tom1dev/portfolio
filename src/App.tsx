@@ -51,16 +51,17 @@ function App() {
         {/* Main Content*/}
         <div className="flex flex-1 flex-row w-full px-15 py-10 gap-8">
           {/* Sticky Navigation */}
-          <div className="sticky top-25 self-start w-1/5 p-6">
+          <nav aria-label="Sections" className="sticky top-25 self-start w-1/5 p-6">
             <SideMenu />
-          </div>
+          </nav>
 
           {/* Sections of Website */}
-          <div className="flex flex-1 flex-col gap-8">
+          <main className="flex flex-1 flex-col gap-8">
             {sectionData.map((sect)=>{
               const Component = sect.component;
               return (
                 <section
+                  key={sect.id}
                   id={sect.id}
                   className="px-6"
                 >
@@ -68,7 +69,7 @@ function App() {
                 </section>
               );}
           )}
-          </div>
+          </main>
         </div>
       </div>
 

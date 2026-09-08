@@ -1,0 +1,36 @@
+# Tom Devonshire
+
+> Software engineer based in Auckland, New Zealand. BE(Hons) Software Engineering,
+> First Class Honours, University of Auckland. Full-stack work across C#/ASP.NET,
+> React, React Native, Java/Spring Boot and Node/Express.
+
+## Current role
+- Junior Developer, Hoist NZ (05/2026 - present). C#, ASP.NET, React, React Native.
+
+## Previous experience
+- Software Engineering Intern, Svasthya NZ (01/2025 - 10/2025). Built and deployed a
+  cross-platform Point of Sale app in React Native with a Node/Express and MySQL backend,
+  integrating Stripe's Terminal SDK to replace a third-party solution and cut transaction
+  fees by 28%.
+- Undergraduate Software Trainee, New Zealand Physics and Math Competition (01/2024 - 01/2025).
+  Full-stack competition platform; migrated the backend from Node/Express to Spring Boot.
+- Production and Manufacturing Engineering Intern, Steel & Tube (11/2023 - 03/2024).
+  SCORM-compliant e-learning module reporting to the Intelex training platform.
+
+## Projects
+- Figaro, a spatial visualisation testing framework (2025). Procedural question generation
+  in FreeCAD; evaluated 15,840 responses across OpenAI, Anthropic, Google and Mistral models
+  with shuffled answer positions; analysed in R and benchmarked against 988 students.
+- Path.io (2023). Gamified fitness Android app; third place and Most Promising Concept
+  at the DEVS x GDSC hackathon.
+
+## Education
+- BE(Hons) Software Engineering, University of Auckland (2022 - 2026). First Class Honours, GPA 7.6.
+- Sancta Maria College, Auckland. NCEA Levels 1-3, each endorsed with Excellence;
+  top scholar in Calculus and Digital Technologies at Level 3.
+
+## Links
+- Site: https://devonshire.co.nz/
+- GitHub: https://github.com/tom1dev
+- LinkedIn: https://www.linkedin.com/in/tom1dev/
+- Email: tom@devonshire.co.nz
